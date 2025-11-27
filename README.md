@@ -10,4 +10,4 @@ Calling examples
 root@sqltest-client:/home/baijun# python3 azure_sql_concurrent.py --servername bjnrth2.database.chinacloudapi.cn --dbname testperf --username CloudSA8cbd2350 --password XXXXXXXX --sqlfile 2.sql --threads 1 --exec_per_thread 20
 
 
-root@sqltest-client:/home/baijun# python3 azure_sql_concurrent.py --servername bjnrth2.database.chinacloudapi.cn --dbname testperf --username CloudSA8cbd2350 --password 1qaz@WSX3edc --sqlfile selectintodelete1.sql --threads 1 --exec_per_thread 2
+root@sqltest-client:/home/baijun# python3 azure_sql_concurrent.py --servername bjnrth2.database.chinacloudapi.cn --dbname testperf --username CloudSA8cbd2350 --password XXXXXXXX --sqlfile selectintodelete1.sql --threads 1 --exec_per_thread 2
