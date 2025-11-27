@@ -7,7 +7,7 @@ We are ready to run the pressure test and please find out the solution
 
 Calling example
 
-root@sqltest-client:/home/baijun# python3 azure_sql_concurrent.py --servername bjnrth2.database.chinacloudapi.cn --dbname testperf --username CloudSA8cbd2350 --password 1qaz@WSX3edc --sqlfile 2.sql --threads 1 --exec_per_thread 20
+root@sqltest-client:/home/baijun# python3 azure_sql_concurrent.py --servername bjnrth2.database.chinacloudapi.cn --dbname testperf --username CloudSA8cbd2350 --password XXXXXXXX --sqlfile 2.sql --threads 1 --exec_per_thread 20
 [Thread ThreadPoolExecutor-0_0] Execution 1 returned 32048 rows.
 [Thread ThreadPoolExecutor-0_0] Execution 2 returned 32048 rows.
 [Thread ThreadPoolExecutor-0_0] Execution 3 returned 32048 rows.
@@ -29,7 +29,7 @@ root@sqltest-client:/home/baijun# python3 azure_sql_concurrent.py --servername b
 [Thread ThreadPoolExecutor-0_0] Execution 19 returned 32048 rows.
 [Thread ThreadPoolExecutor-0_0] Execution 20 returned 32048 rows.
 All threads completed in 103.46 seconds.
-root@sqltest-client:/home/baijun# python3 azure_sql_concurrent.py --servername bjnrth2.database.chinacloudapi.cn --dbname testperf --username CloudSA8cbd2350 --password 1qaz@WSX3edc --sqlfile 2.sql --threads 1 --exec_per_thread 20
+root@sqltest-client:/home/baijun# python3 azure_sql_concurrent.py --servername bjnrth2.database.chinacloudapi.cn --dbname testperf --username CloudSA8cbd2350 --password XXXXXXXX --sqlfile 2.sql --threads 1 --exec_per_thread 20
 [Thread ThreadPoolExecutor-0_0] Execution 1 returned 32048 rows.
 [Thread ThreadPoolExecutor-0_0] Execution 2 returned 32048 rows.
 [Thread ThreadPoolExecutor-0_0] Execution 3 returned 32048 rows.
@@ -51,7 +51,7 @@ root@sqltest-client:/home/baijun# python3 azure_sql_concurrent.py --servername b
 [Thread ThreadPoolExecutor-0_0] Execution 19 returned 32048 rows.
 [Thread ThreadPoolExecutor-0_0] Execution 20 returned 32048 rows.
 All threads completed in 155.80 seconds.
-root@sqltest-client:/home/baijun# python3 azure_sql_concurrent.py --servername bjnrth2.database.chinacloudapi.cn --dbname testperf --username CloudSA8cbd2350 --password 1qaz@WSX3edc --sqlfile 1.sql --threads 1 --exec_per_thread 20
+root@sqltest-client:/home/baijun# python3 azure_sql_concurrent.py --servername bjnrth2.database.chinacloudapi.cn --dbname testperf --username CloudSA8cbd2350 --password XXXXXXXX --sqlfile 1.sql --threads 1 --exec_per_thread 20
 [Thread ThreadPoolExecutor-0_0] Execution 1 returned 2259 rows.
 [Thread ThreadPoolExecutor-0_0] Execution 2 returned 2259 rows.
 [Thread ThreadPoolExecutor-0_0] Execution 3 returned 2259 rows.
