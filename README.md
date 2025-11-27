@@ -5,7 +5,7 @@
 
 We are ready to run the pressure test and please find out the solution
 
-Calling example
+Calling examples
 
 root@sqltest-client:/home/baijun# python3 azure_sql_concurrent.py --servername bjnrth2.database.chinacloudapi.cn --dbname testperf --username CloudSA8cbd2350 --password XXXXXXXX --sqlfile 2.sql --threads 1 --exec_per_thread 20
 [Thread ThreadPoolExecutor-0_0] Execution 1 returned 32048 rows.
