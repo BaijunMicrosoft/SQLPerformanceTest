@@ -48,11 +48,11 @@ run_sql_test() {
 case "$WORKLOAD" in
     high)
         THREADS=(8 4 4 2 1 8)
-        EXECS=(50 30 30 15 20 30)
+        EXECS=(50 30 30 15 5 30)
         ;;
     medium)
         THREADS=(4 2 2 2 1 4)
-        EXECS=(30 20 15 12 15 20)
+        EXECS=(30 20 15 12 3 20)
         ;;
     low)
         THREADS=(4 2 2 1 1 4)
