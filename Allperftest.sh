@@ -56,7 +56,7 @@ case "$WORKLOAD" in
         ;;
     low)
         THREADS=(4 2 2 1 1 4)
-        EXECS=(15 10 15 10 10 5)
+        EXECS=(15 10 15 10 2 5)
         ;;
     *)
         echo "错误: 未知 workload 档次 '$WORKLOAD'，请使用 high|medium|low"
