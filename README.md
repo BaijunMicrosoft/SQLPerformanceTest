@@ -11,5 +11,6 @@ Python
 root@sqltest-client:/home/baijun# python3 azure_sql_concurrent.py --servername bjnrth2.database.chinacloudapi.cn --dbname testperf --username CloudSA8cbd2350 --password XXXXXXXX --sqlfile 2.sql --threads 1 --exec_per_thread 20
 
 Bash
-用法: ./Allperftest.sh <SERVERNAME> <DBNAME> <USERNAME> <PASSWORD>
-示例: ./Allperftest.sh myserver.database.chinacloudapi.cn testdb myuser mypass
+用法: ./Allperftest.sh <SERVERNAME> <DBNAME> <USERNAME> <PASSWORD> <workload_level>
+示例: ./Allperftest.sh myserver.database.chinacloudapi.cn testdb myuser mypass high|medium|low
+
