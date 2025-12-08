@@ -15,4 +15,3 @@ BEGIN
     WHERE al.Create_Date >= @StartTime
       AND al.Create_Date <  @EndTime;
 END
-GO
