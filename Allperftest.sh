@@ -48,15 +48,15 @@ run_sql_test() {
 case "$WORKLOAD" in
     high)
         THREADS=(8 4 4 2 1 8)
-        EXECS=(50 30 30 15 20 50)
+        EXECS=(50 30 30 15 20 30)
         ;;
     medium)
         THREADS=(4 2 2 2 1 4)
-        EXECS=(30 20 15 12 15 30)
+        EXECS=(30 20 15 12 15 20)
         ;;
     low)
         THREADS=(4 2 2 1 1 4)
-        EXECS=(15 10 15 10 10 15)
+        EXECS=(15 10 15 10 10 5)
         ;;
     *)
         echo "错误: 未知 workload 档次 '$WORKLOAD'，请使用 high|medium|low"
